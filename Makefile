@@ -1,4 +1,7 @@
+.PHONY: bin
 
+install:bin
+	cp bin/workflow  ~/go/bin
 
-install:
+bin:
 	go build -o bin/workflow  main.go

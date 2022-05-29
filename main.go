@@ -36,7 +36,7 @@ func main() {
 		c := time.NewTicker(time.Second).C
 		for range c {
 			v, _ := progressValue.Get()
-			if v > progress.Max {
+			if v >= progress.Max {
 				continue
 			}
 			progressValue.Set(v + 1)
