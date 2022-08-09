@@ -7,6 +7,9 @@ edition = "2018"
 name = "google-auth"
 path = "src/google-auth/main.rs"
 
+[[bin]]
+name = "terminal"
+path = "src/terminal/main.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
